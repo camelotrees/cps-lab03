@@ -6,4 +6,8 @@ public class StudentController {
         System.out.println("Listando estudiantes");
     }
 
+    public void registrarEstudiante(String nombre) {
+        System.out.println("Estudiante registrado: " + nombre);
+    }
+
 }
